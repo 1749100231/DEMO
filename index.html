@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">
+	  <meta charset="utf-8">
+	
+  </head>
+  <body>
+	<input readonly="readonly"value=""id="input"type="text">
+	  <input id="getmoney"type="button"value="赚钱">
+  </body>
+</html>		
+<script>
+		  var money = 0;
+		  var input = document.getElementById("input");
+		  var GetMoney = document.getElementById("getmoney");
+		   input.value="你有:"+money+"元";
+		  GetMoney.onclick=function(){money++; input.value="你有："+money+"元";};
+		 
+</script>
