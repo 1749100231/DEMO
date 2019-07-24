@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+}
+#getmoney,#input{
+  display:block;
+  margin:0 auto;
+  animation: rgb 20s infinite linear;
+}
+#getmoney{
+  height:150px;
+  width:180px;
+  margin-top:600px;
+  font-size:90px
+}
+#input{
+  font-size:50px;
+  overflow:hidden;
+  text-align:center;
+  margin-top:150px;
+}
+@keyframes rgb{
+  0%{color:black;}
+  12.5%{color:red;}
+  25%{color:orange;}
+  37.5%{color:yellow:}
+  50%{color:green;}
+  62.5%{color:cyan;}
+  75%{color:blue;}
+  87.5{color:purple;}
+  100%{color:black;}
+}
